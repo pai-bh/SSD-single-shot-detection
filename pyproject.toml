@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ssd"
+version = "0.1.0"
+description = ""
+authors = ["pai-bh <qudgus8672@publicai.co.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.1"
+numpy = "^1.26.4"
+torchvision = "^0.18.1"
+poetry = "^1.8.3"
+tqdm = "^4.66.4"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
